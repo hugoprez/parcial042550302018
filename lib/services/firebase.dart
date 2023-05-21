@@ -36,7 +36,7 @@ Future<List> getVehiculos() async{
   return vehiculos;
 }
 
-//guardar usuario
+//guardar vehiculo
 Future<void> agregarvehiculo(int idvehiculo, String marca,String modelo) async {
    await base.collection('vehiculos').add({
     "idvehiculo": idvehiculo,

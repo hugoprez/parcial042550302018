@@ -41,21 +41,3 @@ class _PrincipalState extends State<Principal> {
     );
   }
 }
-/*
-class Principal extends StatelessWidget {
-  const Principal({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-       debugShowCheckedModeBanner: false,
-    //home: Principal()
-     initialRoute: '/',
-      routes: {
-        '/':(context) => const Principal(),
-        '/add':(context) => const addcliente(),
-        //'/edit':(context) => const Modificar_user()
-      },
-    );
-  }
-}*/
