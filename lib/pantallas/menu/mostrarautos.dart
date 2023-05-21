@@ -104,7 +104,7 @@ class _MostrarVehiculosState extends State<MostrarVehiculos> {
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () async {
-            await Navigator.pushNamed(context, '/add');
+            await Navigator.pushNamed(context, '/addvehiculo');
             //actualiza los datos al agregar un usuario
             setState(() {});
             //print("Actualizar");
